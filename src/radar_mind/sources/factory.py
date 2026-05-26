@@ -4,6 +4,7 @@ from typing import Callable
 
 from .rss import parse_rss
 from .atom import parse_atom
+from .horizon import parse_horizon
 from .article import Article
 
 
@@ -13,6 +14,7 @@ class SourceFactory:
     _parsers: dict[str, Callable] = {
         "rss": parse_rss,
         "atom": parse_atom,
+        "horizon": parse_horizon,
     }
 
     @classmethod

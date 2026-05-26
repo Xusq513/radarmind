@@ -12,7 +12,7 @@
       "days": 1
     },
     {
-      "type": "atom",
+      "type": "horizon",
       "url": "https://thysrael.github.io/Horizon/feed",
       "name": "Horizon",
       "days": 7
