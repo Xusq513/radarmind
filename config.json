@@ -16,6 +16,12 @@
       "url": "https://thysrael.github.io/Horizon/feed",
       "name": "Horizon",
       "days": 7
+    },
+    {
+      "type": "rss",
+      "url": "https://radarai.top/feed.xml",
+      "name": "RadarAI",
+      "days": 1
     }
   ],
   "categories": {
