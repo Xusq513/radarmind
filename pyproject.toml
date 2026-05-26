@@ -1,0 +1,21 @@
+[project]
+name = "radar-mind"
+version = "0.1.0"
+description = "信息源 → 抓取 → AI评分 → 过滤 → 生成日报"
+requires-python = ">=3.11"
+dependencies = [
+    "httpx",
+    "feedparser",
+    "jinja2",
+    "openai",
+]
+
+[project.scripts]
+radarmind = "radar_mind.cli:main"
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[tool.uv]
+dev-dependencies = []
